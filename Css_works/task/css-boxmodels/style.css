@@ -1,0 +1,13 @@
+.box{
+    border: black 2px solid;
+    width: 25%;
+    height: 200px;
+    background-color: lightgreen;
+}
+.right-box{
+    margin-left: auto;
+}
+.center-box{
+    margin-left: auto;
+    margin-right: auto;
+}
