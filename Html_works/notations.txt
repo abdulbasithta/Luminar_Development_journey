@@ -1,0 +1,31 @@
+Notations
+
+touppercase
+
+*snake_case=> to_upper_case
+*camelCase=> toUpperCase
+*PascalCase=> toUpperCase
+
+do avoid spaces =>
+
+there is no specific rule for making html documents
+about-us.html
+signin.html
+product-details.html
+
+*HTML*
+> hyper text markup language
+> developing structure of webpage
+> .html extension
+> <various tags>
+
+
+<html>
+    <head> 
+        <title> python-django </title>
+    </head>
+    <body>
+    <h1> </h1>
+    </body>
+</html>
+
