@@ -1,0 +1,33 @@
+
+
+.container{
+    width: 45%;
+    height: 350px;
+    border: black 2px solid;
+    background-color: rgb(95, 209, 95);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item{
+    width: 30%;
+    height: 100px;
+    border: white 3px solid;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.item:nth-child(1){
+    margin-left: auto;
+}
+
+.item:nth-child(2){
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container:nth-child(2){
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;  /* top space */
+}
