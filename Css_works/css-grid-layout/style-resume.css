@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    width: 50%;
+    height: auto;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+
+
+
+.items:nth-child(1) {
+    background-color: rgb(39, 36, 50);
+    height: 200px;
+    position: relative;
+}
+
+.items>img {
+    width: 65%;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
+
+.items:nth-child(2) {
+    background-color: rgb(39, 36, 50);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.name-head {
+    border: 1px solid white;
+    width: 90%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-head>h1 {
+    position: absolute;
+    transform: translate(-40%, -135%);
+    background-color: rgb(39, 36, 50);
+
+}
+
+.name-head>p {
+    font-size: large;
+}
+
+/* Profile Section */
+
+.items:nth-child(3) {
+    background-color: rgb(75, 222, 209);
+    grid-row-start: 2;
+    grid-row-end: 5;
+    padding: 10px;
+    margin-top: -8px;
+
+}
+
+.contact-section {
+    margin-top: 40px;
+}
+
+.skill-section {
+    margin-top: 40px;
+}
+
+.skill-section>h3 {
+    background-color: rgb(39, 36, 50);
+    color: white;
+    padding: 5px;
+}
+
+
+.items:nth-child(4),
+.items:nth-child(5),
+.items:nth-child(6) {
+    padding: 10px;
+}
+
+.items:nth-child(4)>h3,
+.items:nth-child(5)>h3,
+.items:nth-child(6)>h3 {
+    background-color: rgb(39, 36, 50);
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+
+/* Education Section */
+.items:nth-child(4) {
+    margin-top: -8px;
+    height: 200px;
+}
+
+.edu-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.edu-year {
+    width: 100px;
+    font-weight: bold;
+}
+
+.edu-details>p {
+    margin: 0;
+    line-height: 25px;
+}
+
+.items:nth-child(5) {
+    height: 150px;
+    margin-top: -25px;
+}
+
+.items:nth-child(6) {
+    margin-top: -70px;
+}
+
+.proj-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.proj-title {
+    width: 100px;
+    font-weight: bold;
+}
+
+.proj-details>p {
+    margin: 0;
+    line-height: 25px;
+}
