@@ -1,0 +1,57 @@
+
+
+.grid-container {
+    width: 40%;
+    height: 400px;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: lightblue;
+    border: 1px solid white;
+    background-image: radial-gradient( circle farthest-corner at 6.3% 21.8%,  rgba(236,6,117,1) 0%, rgba(13,32,67,1) 90% );
+}
+
+.grid-item:nth-child(1) {
+    background-color: green;
+    grid-row: 1/4;
+    transition: transform .6s ease-in-out;
+    
+}
+
+.grid-item:nth-child(1):hover {
+    transform: scale(1.1);
+}
+
+.grid-item:nth-child(2) {
+    background-color: green;
+    grid-column: 2/4;
+}
+
+.grid-item:nth-child(6) {
+    background-color: green;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    transition: transform .6s ease-in-out;
+}
+
+.grid-item:nth-child(6):hover {
+    transform: rotate(-45deg);
+}
+
+
+.btn {
+    background-color: purple;
+    padding: 10px;
+    color: white;
+    margin: 30px;
+}
+
+.btn:hover {
+    background-color: darkviolet;
+}
