@@ -207,4 +207,22 @@ body {
     font-size: 14px;
 }
 
+.otp-btn {
+    text-align: center;
+}
+
+.otp-btn button {
+    background-color: var(--primary-color);
+    color: var(--btn-text);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.otp-btn button:hover {
+    background-color: var(--btn-hover-bg);
+    color: var(--btn-text);
+    box-shadow: 5px 5px 15px rgba(241, 196, 15, 0.3);
+}
 /* end otp verification */
