@@ -226,3 +226,13 @@ body {
     box-shadow: 5px 5px 15px rgba(241, 196, 15, 0.3);
 }
 /* end otp verification */
+
+/* product details */
+
+.product .card-text {
+    color: var(--primary-color);
+}
+
+.product h5 {
+    color: var(--text-primary);
+}
