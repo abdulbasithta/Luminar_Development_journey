@@ -1,3 +1,4 @@
+# Arithmetic operator(+, -, /, *, //, **, %)
 
 # print("message")
 # read value through console input("message")
