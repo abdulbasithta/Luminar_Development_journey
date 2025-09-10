@@ -1,5 +1,5 @@
 """
-functions
+functions (to perform a specific tasks)
 
 print("Messages") display msg in console
 
