@@ -28,9 +28,9 @@ print(sum)
 
 """
 
-num = int(input("Enter a number: "))
+num = int(input("Enter a number: ")) #153
 
-digit_count = len(str(num))
+digit_count = len(str(num)) #3
 
 sum = 0
 
@@ -38,15 +38,15 @@ original = num
 
 # print(digit_count)
 
-while(num != 0):
+while(num != 0): #153 != 0
 
-    digit = num % 10
+    digit = num % 10  #3
 
-    exponent = digit ** digit_count
+    exponent = digit ** digit_count  #3 ** 3 = 27
 
-    sum = sum + exponent
+    sum = sum + exponent #0 + 27 = 27
 
-    num = num // 10
+    num = num // 10  #153 // 10 = 15
 
 if original == sum:
 
