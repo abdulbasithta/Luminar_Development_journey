@@ -10,8 +10,6 @@ q5)display smallest number
 """
 numbers = [10,11,14,3,8,19,20,21,22,23,56]
 
-even_numbers =[]
-
 even_sum = 0
 
 largest = numbers[0]

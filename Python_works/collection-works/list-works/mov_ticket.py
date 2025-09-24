@@ -32,7 +32,7 @@ elif ptm_ticket_sold > bms_ticket_sold and ptm_ticket_sold > wkn_ticket_sold:
 
     print("ptm is highest")
 
-elif wkn_ticket_sold > bms_ticket_sold and wkn_ticket_sold > ptm_ticket_sold:
+else:
 
     print("wkn is highest")
 
@@ -46,7 +46,7 @@ elif ptm_ticket_sold < bms_ticket_sold and ptm_ticket_sold < wkn_ticket_sold:
 
     print("ptm is lowest")
 
-elif wkn_ticket_sold < bms_ticket_sold and wkn_ticket_sold < ptm_ticket_sold:
+else:
 
     print("wkn is lowest")
 

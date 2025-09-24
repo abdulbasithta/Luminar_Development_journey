@@ -8,3 +8,11 @@ collections:
     dictionary
     
 """
+
+# dir(class_name)  # list the methods of the class
+
+# Ex:
+#     open terminal >>python
+
+#     >>>dir(str)
+#     >>>dir(list)
